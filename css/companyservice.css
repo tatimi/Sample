@@ -1,0 +1,83 @@
+*{
+  margin:0;
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS P Gothic", sans-serif;
+}
+.food{
+  background-image: url("../img/food.jpg");
+  background-size: cover;
+  height:500px;
+  padding-top: 300px;
+}
+.food-come{
+  color:white;
+  margin-left: 100px;
+}
+.food-come h1{
+  font-size:70px;
+}
+.food-come p{
+  font-size:20px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.about{
+  text-align: center;
+  margin-top: 80px;
+}
+.about-calna{
+ font-size:40px;
+ margin-bottom: 50px;
+ font-weight: normal;
+}
+.about-support{
+  font-size:25px;
+  font-weight: normal;
+  margin-bottom: 50px;
+}
+.about p{
+  font-size:20px;
+  margin-bottom: 8px;
+  letter-spacing: 3px;
+}
+.img-come{
+  float: left;
+ display: flex;
+ flex-direction:column;
+ margin-left: 100px;
+}
+.fa-comment-dots{
+  font-size: 50px;
+}
+
+.food-img{
+ margin-left: 80px;
+ float: right;
+}
+.img-coment{
+  display:flex;
+  flex-direction:column;
+  float:left;
+  margin-left: 100px;
+}
+.container{
+  margin: 100px auto 0 auto;
+  width:1100px;
+  display: flex;
+  justify-content: left;
+}
+.kaiwa-sup{
+  font-weight:normal;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.kaiwa-sup span{
+  color:rgba(230, 127, 10, 0.863);
+}
+@media(max-width:800px){
+  .img-coment{
+    width: 100%;
+  }
+  .food-img{
+    width:100%;
+  }
+}

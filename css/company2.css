@@ -1,0 +1,78 @@
+*{
+  margin:0;
+  padding:0;
+}
+header{
+  background-color: rgb(51, 50, 50);
+  height:50px;
+}
+.header{
+ margin:0 auto;
+ width:900px;
+}
+.header a{
+  text-decoration: none;
+}
+.allgrey{
+  background-color: rgb(245, 245, 245);
+}
+h1{
+  color:white;
+  font-size: 24px;
+  letter-spacing: 5px;
+  padding-left: 15px;
+  padding-top:10px;
+}
+.kiyaku{
+  text-align:center;
+  margin:0 auto;
+  max-width: 900px;
+  background-color: white;
+}
+.kiyaku p{
+  font-size:14px;
+  text-align: left;
+  display:inline-block;
+  font-weight:bold;
+  color:rgb(63, 63, 63);
+}
+.kiyaku  h2{
+  padding-top: 30px;
+}
+.madoguti{
+  width:800px;
+  text-align: left;
+  padding-top: 30px;
+}
+.madoguti-toiawase{
+  width:800px;
+  text-align: left;
+  padding-top: 10px;
+}
+.footer a{
+  text-decoration: none;
+  color:rgb(63, 63, 63);
+  font-size: 13px;
+  padding-right: 18px;
+  margin-top: 10px;
+}
+
+.footer ul{
+  display:flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+.footer-right{
+  border-left:solid 1px rgb(155, 153, 153) ;
+  padding-left: 18px;
+}
+.footer p{
+  display:flex;
+  justify-content: flex-end;
+  border-left:solid 1px rgb(155, 153, 153) ;
+  font-size: 5px;
+  padding:5px 15px;
+}
+.footer span:hover{
+  border-bottom:solid 1px rgb(155, 153, 153);
+ }
